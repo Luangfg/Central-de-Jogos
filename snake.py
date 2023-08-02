@@ -82,7 +82,7 @@ def jogar():
         
         
         while not fim_jogo:
-            tela.fill(preta) #ERR--------------------------------------------------------------------------------------------O
+            tela.fill(preta) 
             
             for evento in pygame.event.get():
                 if evento.type == pygame.QUIT:
